@@ -1,0 +1,24 @@
+# data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.venv312/
+venv/
+.ipynb_checkpoints/
+
+# temporary
+temp/
+
+# reports
+reports/figures/*
+!reports/figures/.gitkeep
+
+# os
+.DS_Store
+Thumbs.db
